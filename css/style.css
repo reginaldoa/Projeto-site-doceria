@@ -373,7 +373,7 @@ section{
 }
 #sessao-bemvindo .banner{
     height: 500px;
-    background-image:url('../img/banner2.jpg');
+    background-image:url('img/banner2.jpg');
     background-position: center;
     background-size: cover;
 }
