@@ -37,7 +37,7 @@ img.logo-doceria{
         position: relative;
         width: 230px;
         height: 100px;
-        background-image:url('img/banner2.jpg');
+        background-image:url('../img/banner2.jpg');
         background-size: auto;
 
     }
@@ -114,6 +114,15 @@ div.content h1, h2{
     }
 }
 
+@media(max-width:400px){
+    #sessao-contato h2{
+        font-size: 20px;
+        right: 180px;
+
+     
+    }
+}
+
 
 @media(max-width:500px){
     #sessao-doces1,#sessao-doces2,#sessao-doces3 {
@@ -126,6 +135,19 @@ div.content h1, h2{
     padding: auto;
     }
 }
+
+@media(max-width:400px){
+    #sessao-doces1,#sessao-doces2,#sessao-doces3 {
+    position: relative;
+    float:right;
+    right: 100px;
+    width: 179px;
+    height: 500px;
+    margin-top: -400px;
+    padding: auto;
+    }
+}
+
 
 @media(max-width:500px){
     #sessao-doces1 h2,#sessao-doces2 h2,#sessao-doces3 h2 {
@@ -174,7 +196,6 @@ div.content h1, h2{
 }
 
 
-
 @media(max-width:500px){
     #form-contato input[type=submit]{
         position: relative;
@@ -203,6 +224,14 @@ div.content h1, h2{
     }   
 }
 
+@media(max-width:400px){
+    #form-contato #Name{
+        position: relative;
+        width: 120px;
+        height: 10px;
+        }   
+    }
+
 @media(max-width:500px){
     #form-contato #email{
         position: relative;
@@ -211,11 +240,28 @@ div.content h1, h2{
         }   
     }
 
+    @media(max-width:400px){
+        #form-contato #email{
+            position: relative;
+            width: 120px;
+            height: 10px;
+            }   
+        }
+
 
     @media(max-width:500px){
         #form-contato textarea[name=foo]{
             position: relative;
             width: 201px;
+            height: 150px;
+            resize: vertical;
+        }
+    }
+
+    @media(max-width:400px){
+        #form-contato textarea[name=foo]{
+            position: relative;
+            width: 120px;
             height: 150px;
             resize: vertical;
         }
@@ -327,7 +373,7 @@ section{
 }
 #sessao-bemvindo .banner{
     height: 500px;
-    background-image:url('img/banner2.jpg');
+    background-image:url('../img/banner2.jpg');
     background-position: center;
     background-size: cover;
 }
