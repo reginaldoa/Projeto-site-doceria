@@ -1,4 +1,14 @@
 @media(max-width:500px){
+html,body{
+    font-family: 'Open Sans',sans-serif;
+    color: #373a3c;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    }
+}
+
+@media(max-width:500px){
   div#sidebar{
    width: 270px; 
    text-align: justify;
