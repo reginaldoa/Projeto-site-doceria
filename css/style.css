@@ -34,11 +34,10 @@ img.logo-doceria{
 
 @media(max-width:500px){
     div.banner{
-        position: relative;
-        width: 1200px;
-        right:5px;
+        width: 700px;
+        height: auto;
+        right:auto;
         background-image:url('../img/banner2.jpg');
-        background-size: auto;
 
     }
 }
